@@ -78,3 +78,115 @@ main img{
     height: 205px;
     margin-top: 20px;
 }
+
+main .inp{
+    width: 1232px;
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 20px;
+    background: rgb(150, 150, 150);
+    margin-top: 20px;
+    border-radius: 12px;
+    display: flex;
+    position: relative;
+}
+
+main .inp .katalogs{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+main .inp .katalogs:hover{
+    color: gray;
+    transition: .3s;
+}
+
+main .inp input{
+    width: 300px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    color: rgb(179, 179, 179);
+    font-size: 20px;
+    background: none;
+    outline: none;
+}
+
+main .inp .qidir{
+    width: 50px;
+    height: 50px;
+    background: blueviolet;
+    border-radius: 6px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    right: 40px;
+}
+
+main .things{
+    display: flex;
+    width: 1190px;
+    height: 200px;
+    gap: 15px;
+    padding-left: 21px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+main .things .div{
+    width: 185px;
+    height: 150px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    background: gray;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+main .things .div img{
+    width: 160px;
+    height: 150px;
+    bottom: 0px;
+    right: 0;
+    position: absolute;
+}
+
+main h1{
+    color: rgb(8, 0, 41);
+}
+
+main .things2{
+    width: 1232px;
+    height: 350px;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+main .things2 .div{
+    width: 296px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+main .things2 .div img{
+    width: 100%;
+    height: 160px;
+    border-radius: 12px;
+}
