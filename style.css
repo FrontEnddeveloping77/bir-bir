@@ -154,6 +154,12 @@ main .things .div{
     border-radius: 12px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
+}
+
+main .things .div:hover{
+    background: rgb(171, 169, 169);
+    border: 1px solid black;
 }
 
 main .things .div img{
