@@ -192,6 +192,7 @@ main .things2 .div{
 }
 
 main .things2 .div:hover{
+    cursor: pointer;
     img{
         opacity: 80%;
         transition: .5s;
