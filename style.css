@@ -275,6 +275,12 @@ footer ul{
     list-style: none;
 }
 
+footer ul li:hover{
+    color: blueviolet;
+    transition: .5s;
+    cursor: pointer;
+}
+
 footer .icons{
     display: flex;
     gap: 20px;
