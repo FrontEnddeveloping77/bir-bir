@@ -234,6 +234,7 @@ main .big-div{
     border-radius: 12px;
     padding-top: 25px;
     padding-left: 25px;
+    margin-bottom: 50px;
 }
 
 main .big-div .img{
